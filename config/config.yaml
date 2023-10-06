@@ -1,0 +1,10 @@
+#  a configuration file for storing app configurations in a human-readable format.
+
+artifacts_root: artifacts # root directory where various artifacts will be stored
+
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion # root directory for data ingestion artifacts.
+  source_URL: https://github.com/entbappy/Branching-tutorial/raw/master/Chicken-fecal-images.zip # the URL from which data will be fetched. 
+  local_data_file: artifacts/data_ingestion/data.zip #local path where the fetched data will be stored.
+  unzip_dir: artifacts/data_ingestion # directory where the ZIP file will be extracted
