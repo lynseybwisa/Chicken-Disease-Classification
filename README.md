@@ -13,3 +13,6 @@
 7. Update the pipeline 
 8. Update the main.py
 9. Update the dvc.yaml
+
+- In this project, data validation is not required as data is already in the correct format.
+- We prepare our base model with transfer landing approach using vg16 model from keras
